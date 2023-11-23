@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+
+#!/bin/bash
+sudo apt-get install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
